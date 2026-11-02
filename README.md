@@ -1,3 +1,6 @@
+## License
+   © 2026 Elhabchi Mohammed. All Rights Reserved.
+
 # Electro Elhabchi
 
 Plateforme e-commerce MERN en français pour la vente de matériel électronique. Le dépôt contient une application React/Vite et une API Node/Express avec MongoDB/Mongoose.
