@@ -29,17 +29,6 @@ Pour remplir la boutique avec des catégories et quelques références de démon
 npm run seed -w server
 ```
 
-## Premier administrateur
-
-Inscrivez d’abord un utilisateur depuis l’interface. Promouvez ensuite ce compte avec un accès administrateur direct à MongoDB :
-
-```javascript
-db.users.updateOne(
-  { email: "votre-email@example.com" },
-  { $set: { role: "admin" } }
-)
-```
-
 Les inscriptions publiques créent toujours des comptes client. Le rôle n’est jamais accepté depuis le formulaire.
 
 ## API principale
